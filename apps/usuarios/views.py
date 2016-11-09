@@ -6,6 +6,7 @@ from rest_framework import status
 from .serializers import ClienteSerializer
 from .models import Cliente
 
+
 class ClienteView(APIView):
     
     def get(self, request, format=None):
